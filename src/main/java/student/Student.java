@@ -14,6 +14,7 @@ public class Student {
     private int yearOfBirth;
     private Course course;
     private Computer computer;
+   
     
     public Computer getComputer() {
         return this.computer;
@@ -22,6 +23,11 @@ public class Student {
     
     public Course getCourse() {
         return this.course;
+    }
+    
+    public Student() {
+        System.out.println("Course " + this.getCourse());
+        System.out.println("Computer " + this.getComputer());
     }
     
     
@@ -52,9 +58,9 @@ public class Student {
     }
     
     
-    public Student() {
-        
-    } 
+//    public Student() {
+//        
+//    } 
     
     
     public Student(String customFirstName, String customLastName, int customYearOfBirth) {
