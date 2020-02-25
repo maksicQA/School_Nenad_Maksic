@@ -1,6 +1,10 @@
 
 package main;
 
+import student.Student;
+import course.Course;
+import computer.Computer;
+
 /**
  *
  * @author qa
