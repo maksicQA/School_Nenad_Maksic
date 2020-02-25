@@ -1,6 +1,9 @@
 
 package student;
 
+import course.Course;
+import computer.Computer;
+
 /**
  *
  * @author qa
@@ -9,7 +12,17 @@ public class Student {
     private String firstName;
     private String lastName;
     private int yearOfBirth;
+    private Course course;
+    private Computer computer;
     
+    public Computer getComputer() {
+        return this.computer;
+    }
+    
+    
+    public Course getCourse() {
+        return this.course;
+    }
     
     
     
